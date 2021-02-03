@@ -21,6 +21,7 @@ class MybatisPlusApplicationTests {
     void contextLoads() {
         List<User> users = userMapper.selectList(null);
         users.forEach(System.out::println);
+        System.out.println("cool");
     }
 
 }
